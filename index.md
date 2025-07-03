@@ -15,7 +15,7 @@ and the ground-breaking ocean modeling software they are based on, [Oceananigans
 Oceananigans is written for GPUs in the high-level [Julia programming language](https://julialang.org/): highly productive, easy to develop, and 10-50x faster than existing software.
 
 Learn more about [me], [what I do], read my [curriculum vitae],
-or email me at `gregory.leclaire.wagner@gmail.com`.
+or email me at `subhajitkar19@gmail.com`.
 
 [Oceananigans]: https://github.com/CliMA/Oceananigans.jl
 [ClimaSeaIce]: https://github.com/CliMA/ClimaSeaIce.jl
