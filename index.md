@@ -3,7 +3,7 @@ title: Me: human and scientist
 ---
 
 I'm a PhD student in 
-[Porter School of Earth and Environmental Sciences] at [Tel Aviv University].
+Porter School of Earth and Environmental Sciences at [Tel Aviv University].
 
 
 My work aims both to better understand the world, and to improve the fidelity of ocean and climate simulations.
