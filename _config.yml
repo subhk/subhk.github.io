@@ -9,11 +9,11 @@
 locale                   : "en-US"
 title                    : "glw's science"
 title_separator          : "-"
-name                     : "Gregory L Wagner"
+name                     : "Subhajit Kar"
 description              : "Mostly about ocean physics."
-url                      : "https://glwagner.github.io"
+url                      : "https://subhk.github.io"
 baseurl                  : # Subpath, if there is one.
-repository               : "glwagner/glwagner.github.io"
+repository               : "subhk/glwagner.github.io"
 teaser                   : "/assets/images/dropletWaves-bottom.jpg"
 #breadcrumbs             : false # true, false (default)
 words_per_minute         : 200
@@ -75,12 +75,12 @@ analytics:
 
 # Author information
 author:
-  name             : "Gregory LeClaire Wagner"
-  avatar           : "/assets/images/me.jpg"
-  bio              : "Physicist | Oceanographer | Human"
-  location         : "Cambridge, MA"
+  name             : "Subhajit Kar"
+  avatar           : "/assets/images/me.png"
+  bio              : "Physical Oceanographer | Human"
+  location         : "Tel Aviv, Israel"
   location_link    : "https://goo.gl/maps/2mQKSt43kJ52"
-  email            : "gregory.leclaire.wagner@gmail.com"
+  email            : "subhajitkar19@gmail.com"
   uri              :
   bitbucket        :
   codepen          :
@@ -88,11 +88,11 @@ author:
   flickr           :
   facebook         : 
   foursquare       :
-  github           : "glwagner"
+  github           : "subhk"
   google_plus      :
-  google_scholar   : "dxBXBSUAAAAJ" # This odd username is somehow brewed up by Google.
+  google_scholar   : "https://scholar.google.com/citations?user=w6dTdX4AAAAJ&hl=en&authuser=1" # This odd username is somehow brewed up by Google.
   keybase          :
-  instagram        : "gl.wagner"
+  instagram        : 
   lastfm           :
   linkedin         :
   pinterest        :
