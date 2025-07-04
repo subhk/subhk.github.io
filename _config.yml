@@ -7,14 +7,14 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "glw's science"
+title                    : "subha's science"
 title_separator          : "-"
 name                     : "Subhajit Kar"
 description              : "Mostly about ocean physics."
 url                      : "https://subhk.github.io"
 baseurl                  : # Subpath, if there is one.
-repository               : "subhk/glwagner.github.io"
-teaser                   : "/assets/images/dropletWaves-bottom.jpg"
+repository               : "subhk/subhk.github.io"
+teaser                   : "/assets/images/Medd.png"
 #breadcrumbs             : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -77,9 +77,9 @@ analytics:
 author:
   name             : "Subhajit Kar"
   avatar           : "/assets/images/me.png"
-  bio              : "Physical Oceanographer | Human"
+  bio              : "Physical Oceanographer"
   location         : "Tel Aviv, Israel"
-  location_link    : "https://goo.gl/maps/2mQKSt43kJ52"
+  location_link    : 
   email            : "subhajitkar19@gmail.com"
   uri              :
   bitbucket        :
