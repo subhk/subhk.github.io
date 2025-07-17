@@ -3,7 +3,7 @@ title: Publications
 permalink: /publications/
 ---
 
-0.  [Spontaneous emission of internal waves by a radiative instability][4]  
+0.  [Spontaneous emission of internal waves by a radiative instability][5]  
     Subhajit Kar, Roy Barkan, James C McWilliams, M Jeroen Molemaker
     **Journal of Physical Oceanography**, *2023*
     
@@ -22,3 +22,14 @@ permalink: /publications/
 0.  [Scale dependence of kinetic helicity and selection of the axial dipole in rapidly rotating dynamos][1]  
     Binod Sreenivasan, Subhajit Kar
     **Physical Review Fluids**, *2018*
+{: reversed="reversed"}
+
+
+
+
+
+[5]: https://subhk.github.io/assets/pdf/JPO_Radiative_instability.pdf
+[4]: https://subhk.github.io/assets/pdf/KarBarkan2023_front_IWs.pdf
+[3]: https://subhk.github.io/assets/pdf/Kar_Guha_Ocean_Modelling.pdf
+[2]: https://subhk.github.io/assets/pdf/POF_Kar_Guha.pdf
+[1]: https://subhk.github.io/assets/pdf/PRF_Sreenivasan_Kar.pdf
