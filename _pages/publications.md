@@ -2,7 +2,7 @@
 title: Publications
 permalink: /publications/
 ---
-0.  [Linear stability analysis of an oceanic front][5]  
+0.  [Linear stability analysis of an oceanic front][6]  
     Subhajit Kar, Roy Barkan, John R. Taylor
     **Journal of Fluid Mechanics,**, *submitted*
 
@@ -29,7 +29,7 @@ permalink: /publications/
 
 
 
-
+[6]: https://subhk.github.io/assets/pdf/Biglobal_stability_Ou1984.pdf
 [5]: https://subhk.github.io/assets/pdf/JPO_Radiative_instability.pdf
 [4]: https://subhk.github.io/assets/pdf/KarBarkan2023_front_IWs.pdf
 [3]: https://subhk.github.io/assets/pdf/Kar_Guha_Ocean_Modelling.pdf
