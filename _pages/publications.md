@@ -5,7 +5,7 @@ permalink: /publications/
 
 0.  [Spontaneous emission of internal waves by a radiative instability][5]  
     Subhajit Kar, Roy Barkan, James C McWilliams, M Jeroen Molemaker
-    **Journal of Physical Oceanography**, *2023*
+    **Journal of Physical Oceanography**, *2025*
     
 0.  [Kinetic energy exchanges between a two-dimensional front and internal waves][4]  
     Subhajit Kar, Roy Barkan
