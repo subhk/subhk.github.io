@@ -2,6 +2,9 @@
 title: Publications
 permalink: /publications/
 ---
+0.  [Linear stability analysis of an oceanic front][5]  
+    Subhajit Kar, Roy Barkan, John R. Taylor
+    **Journal of Fluid Mechanics,**, *submitted*
 
 0.  [Spontaneous emission of internal waves by a radiative instability][5]  
     Subhajit Kar, Roy Barkan, James C McWilliams, M Jeroen Molemaker
@@ -23,7 +26,6 @@ permalink: /publications/
     Binod Sreenivasan, Subhajit Kar
     **Physical Review Fluids**, *2018*
 {: reversed="reversed"}
-
 
 
 
