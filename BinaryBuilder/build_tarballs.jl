@@ -8,10 +8,8 @@ version = v"1.0.0"  # library version, not the JLL build number
 
 # Upstream source of SHTns (placeholder; update to the exact URL + sha256)
 sources = [
-    ArchiveSource(
-        "https://github.com/SHTns/shtns/archive/refs/tags/v3.7.1.tar.gz",
-        "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5",
-    ),
+    # Use a Git source to avoid unstable auto-generated archive checksums
+    GitSource("https://github.com/SHTns/shtns.git", "v3.7.1"),
 ]
 
 # Define the platforms we want to build for
@@ -28,9 +26,8 @@ dependencies = Dependency[
 ]
 
 products = Product[
-    LibraryProduct("libshtns", :libshtns),
-    # Some distributions also provide an OpenMP-suffixed library; mark as optional
-    LibraryProduct("libshtns_omp", :libshtns_omp; dont_dlopen=true, optional=true),
+    # Core shared library; BinaryBuilder will pick the correct extension
+    LibraryProduct(["libshtns"], :libshtns),
 ]
 
 script = raw"""
@@ -88,4 +85,5 @@ ls -la ${libdir} || true
 """
 
 build_tarballs(ARGS, name, version, sources, script, platforms, products, dependencies;
-               preferred_gcc_version=v"7")
+               preferred_gcc_version=v"7",
+               julia_compat="1.6")
