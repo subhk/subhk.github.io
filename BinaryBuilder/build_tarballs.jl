@@ -9,11 +9,8 @@ version = v"1.0.0"  # library version, not the JLL build number
 # Upstream source of SHTns (placeholder; update to the exact URL + sha256)
 sources = [
     ArchiveSource(
-        # Example: official SHTns source release tarball
-        # "https://github.com/SHTns/shtns/archive/refs/tags/v3.7.1.tar.gz",
-        # "<sha256-of-source-tarball>"
-        "https://example.com/shtns-vX.Y.Z.tar.gz",
-        "<sha256>"
+        "https://github.com/SHTns/shtns/archive/refs/tags/v3.7.1.tar.gz",
+        "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5",
     ),
 ]
 
@@ -26,6 +23,7 @@ platforms = [
 
 # Optional: Add platform-specific dependencies. macOS needs LLVMOpenMP for -fopenmp.
 dependencies = Dependency[
+    Dependency("FFTW_jll"),
     Dependency("LLVMOpenMP_jll"; platforms = filter(Sys.isapple, platforms)),
 ]
 
