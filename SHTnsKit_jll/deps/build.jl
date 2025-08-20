@@ -14,6 +14,11 @@ if Sys.isapple() && Sys.ARCH === :aarch64
     push!(urls, "https://subhk.github.io/release/download/SHTnsKit.v1.0.0.aarch64-apple-darwin.tar.gz")
     push!(urls, "https://subhk.github.io/release/download/SHTnsKit.v1.0.0.x86_64-linux-gnu.tar.gz")
     sha256 = "6d1e2155c4e96927de380e44a5a4b90c5d163e89737b79bd66b45daefa6acbd6"
+elseif Sys.isapple() && Sys.ARCH === :x86_64
+    # Placeholder for macOS Intel build; update after producing tarball via BinaryBuilder
+    # Example name: SHTnsKit.v1.0.0.x86_64-apple-darwin.tar.gz
+    push!(urls, "https://subhk.github.io/release/download/SHTnsKit.v1.0.0.x86_64-apple-darwin.tar.gz")
+    sha256 = "<fill_sha256_here>"
 elseif Sys.islinux() && Sys.ARCH === :x86_64
     # TODO: update once a real Linux build is uploaded
     @warn "No Linux x86_64 artifact URL configured yet; skipping bind."

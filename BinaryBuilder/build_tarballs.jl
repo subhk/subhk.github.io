@@ -21,9 +21,7 @@ sources = [
 platforms = [
     Platform("x86_64", "linux"; libc = "glibc"),
     Platform("aarch64", "macos"),
-    # Uncomment as needed:
-    # Platform("x86_64", "macos"),
-    # Platform("aarch64", "linux"; libc = "glibc"),
+    Platform("x86_64", "macos"),
 ]
 
 # Optional: Add platform-specific dependencies. macOS needs LLVMOpenMP for -fopenmp.
@@ -93,4 +91,3 @@ ls -la ${libdir} || true
 
 build_tarballs(ARGS, name, version, sources, script, platforms, products, dependencies;
                preferred_gcc_version=v"7")
-

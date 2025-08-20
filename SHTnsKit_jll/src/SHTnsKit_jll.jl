@@ -23,19 +23,30 @@ dlopen both libs to validate availability at init time.
 Closes immediately; callers can `Libdl.dlopen` again if needed.
 """
 function __init__()
-    # Only attempt dlopen when the artifact is available and we're on a supported platform
+    # Only attempt dlopen on supported platforms for which we provide an artifact
+    if !Sys.isapple()
+        return
+    end
+
+    # Attempt to locate the artifact (may download on first use)
     local _root
     try
         _root = artifact_dir()
     catch e
-        @warn "Artifact not available on this platform; skipping dlopen" arch=Sys.ARCH os=Sys.KERNEL exception=e
+        @info "Artifact not available; skipping dlopen" arch=Sys.ARCH os=Sys.KERNEL exception=e
         return
     end
-    if Sys.isapple() && Sys.ARCH === :aarch64
-        for lib in ("libshtns.so", "libshtns_omp.so")
+    if true
+        # Try common library filenames for Apple platforms
+        local candidates
+        candidates = [
+            "libshtns.dylib", "libshtns_omp.dylib",
+            "libshtns.so",    "libshtns_omp.so",
+        ]
+        for lib in candidates
             p = joinpath(_root, "lib", lib)
             if !isfile(p)
-                @warn "Library not found in artifact" lib=p
+                # Skip missing names; different builds may choose .dylib vs .so
                 continue
             end
             h = Libdl.dlopen_e(p)
