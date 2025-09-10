@@ -3,7 +3,7 @@ title: Publications
 permalink: /publications/
 ---
 0.  [BiGSTARS.jl: A Julia package for bi-global stability analysis for rotating stratified flows][7]  
-    Subhajit Kar, Roy Barkan, John R. Taylor
+    Subhajit Kar
     **Journal of Open Source Software,**, *submitted*
 
 0.  [Linear stability analysis of an oceanic front][6]  

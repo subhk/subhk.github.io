@@ -2,10 +2,8 @@
 title: Me: human and scientist
 ---
 
-I'm a PhD student in 
-Porter School of Earth and Environmental Sciences at [Tel Aviv University].
+I'm a PhD student in the Porter School of Earth and Environmental Sciences at [Tel Aviv University].
 
-(under development 😄)
 
 Learn more about [me], [what I do], read my [curriculum vitae],
 or email me at `subhajitkar19@gmail.com`.
