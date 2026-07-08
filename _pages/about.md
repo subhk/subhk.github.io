@@ -17,7 +17,8 @@ These seemingly tiny, kilometer-scale dynamics are central to the Earth system: 
 ## PhD Thesis
 
 Breaking the Balance: Mechanisms of Oceanic Kinetic Energy Transfers from Geostrophic to Ageostrophic Motions  
-Ph.D. dissertation, Tel Aviv University, 2025. Advisor: Prof. Roy Barkan.
+Ph.D. dissertation, Tel Aviv University, 2025. Advisor: Prof. Roy Barkan.  
+[Download the abstract (PDF)](/assets/pdf/thesis-abstract.pdf)
 
 ### Abstract
 
