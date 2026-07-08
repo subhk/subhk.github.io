@@ -1,0 +1,17 @@
+<div class="software-grid">
+  {% for pkg in site.data.software %}
+  <div class="pkg-card">
+    <div class="pkg-card__title">
+      {% if pkg.docs %}<a href="{{ pkg.docs }}">{{ pkg.name }}</a>
+      {% else %}<a href="{{ pkg.repo }}">{{ pkg.name }}</a>{% endif %}
+      {% if pkg.lang %}<span class="pkg-card__lang">{{ pkg.lang }}</span>{% endif %}
+    </div>
+    <p class="pkg-card__desc">{{ pkg.desc }}</p>
+    {% if pkg.install %}<div class="pkg-card__install">{{ pkg.install }}</div>{% endif %}
+    <div class="pkg-card__links">
+      {% if pkg.docs %}<a class="pkg-link pkg-link--docs" href="{{ pkg.docs }}">Docs</a>{% endif %}
+      {% if pkg.repo %}<a class="pkg-link pkg-link--repo" href="{{ pkg.repo }}">GitHub</a>{% endif %}
+    </div>
+  </div>
+  {% endfor %}
+</div>

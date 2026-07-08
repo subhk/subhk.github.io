@@ -1,0 +1,182 @@
+/* ==========================================================================
+   Custom styles — hero + software cards
+   Ocean-blue accent: #0e7c8b
+   ========================================================================== */
+
+$ocean:       #0e7c8b;
+$ocean-dark:  #0a5c67;
+$ocean-tint:  #e8f4f6;
+
+/* --------------------------------------------------------------------------
+   Homepage hero
+   -------------------------------------------------------------------------- */
+
+.hero {
+  text-align: center;
+  padding: 3.5em 1em 2.5em;
+  margin-bottom: 1.5em;
+  background: linear-gradient(160deg, $ocean-tint 0%, #ffffff 70%);
+  border-radius: 12px;
+
+  &__name {
+    font-size: 2.4em;
+    line-height: 1.1;
+    margin: 0 0 0.25em;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+  }
+
+  &__tagline {
+    font-size: 1.05em;
+    color: mix(#000, $ocean, 15%);
+    margin: 0 auto 1.4em;
+    max-width: 34em;
+  }
+
+  &__actions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.6em;
+  }
+}
+
+.hero-btn {
+  display: inline-block;
+  padding: 0.55em 1.2em;
+  border-radius: 999px;
+  font-size: 0.85em;
+  font-weight: 600;
+  text-decoration: none;
+  border: 1px solid $ocean;
+  color: $ocean;
+  background: #fff;
+  transition: all 0.15s ease-in-out;
+
+  &:hover {
+    background: $ocean;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  &--solid {
+    background: $ocean;
+    color: #fff;
+    &:hover { background: $ocean-dark; border-color: $ocean-dark; color: #fff; }
+  }
+}
+
+@media (max-width: 37.5em) {
+  .hero { padding: 2.5em 0.75em 2em; }
+  .hero__name { font-size: 1.9em; }
+}
+
+/* --------------------------------------------------------------------------
+   Software cards
+   -------------------------------------------------------------------------- */
+
+.software-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(17em, 1fr));
+  gap: 1.25em;
+  margin: 1.5em 0 2em;
+}
+
+.pkg-card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #e6e8ea;
+  border-top: 3px solid $ocean;
+  border-radius: 10px;
+  padding: 1.2em 1.25em 1.35em;
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(14, 124, 139, 0.15);
+  }
+
+  &__title {
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 0 0 0.15em;
+
+    a { text-decoration: none; color: $ocean-dark; }
+    a:hover { text-decoration: underline; }
+  }
+
+  &__lang {
+    display: inline-block;
+    font-size: 0.68em;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: $ocean;
+    background: $ocean-tint;
+    padding: 0.15em 0.6em;
+    border-radius: 999px;
+    vertical-align: middle;
+    margin-left: 0.4em;
+  }
+
+  &__desc {
+    font-size: 0.9em;
+    line-height: 1.5;
+    color: #4a4f54;
+    margin: 0.5em 0 1em;
+    flex-grow: 1;
+  }
+
+  &__install {
+    font-family: Monaco, Consolas, "Courier New", monospace;
+    font-size: 0.8em;
+    background: #f5f7f8;
+    border: 1px solid #eceff1;
+    border-radius: 6px;
+    padding: 0.5em 0.7em;
+    margin-bottom: 1em;
+    overflow-x: auto;
+    white-space: nowrap;
+    color: #2c3136;
+  }
+
+  &__links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5em;
+    margin-top: auto;
+  }
+}
+
+.pkg-link {
+  display: inline-block;
+  font-size: 0.78em;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 0.4em 0.9em;
+  border-radius: 6px;
+  transition: all 0.15s ease-in-out;
+
+  &--docs {
+    color: #fff;
+    background: $ocean;
+    &:hover { background: $ocean-dark; color: #fff; text-decoration: none; }
+  }
+
+  &--repo {
+    color: #24292e;
+    background: #f2f4f6;
+    border: 1px solid #e0e3e6;
+    &:hover { background: #e4e8eb; color: #24292e; text-decoration: none; }
+  }
+}
+
+/* --------------------------------------------------------------------------
+   Small global polish
+   -------------------------------------------------------------------------- */
+
+.page__content {
+  h2 { border-bottom: 1px solid #eceff1; padding-bottom: 0.3em; }
+}

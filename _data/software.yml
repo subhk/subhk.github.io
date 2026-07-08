@@ -1,0 +1,35 @@
+# Julia packages shown on /software/. Add a new package = one entry here.
+- name: "BiGSTARS.jl"
+  lang: "Julia"
+  desc: "Bi-global linear stability analysis for geophysical flows using a Chebyshev–Fourier spectral collocation method."
+  install: "] add BiGSTARS"
+  docs: "https://subhk.github.io/BiGSTARS.jl/stable/"
+  repo: "https://github.com/subhk/BiGSTARS.jl"
+
+- name: "SHTnsKit.jl"
+  lang: "Julia"
+  desc: "A comprehensive Julia implementation of the SHTns library for fast spherical harmonic transforms."
+  install: "] add SHTnsKit"
+  docs: "https://subhk.github.io/SHTnsKit.jl/"
+  repo: "https://github.com/subhk/SHTnsKit.jl"
+
+- name: "Tarang.jl"
+  lang: "Julia"
+  desc: "A (pseudo-)spectral partial differential equation solver."
+  install: "] add Tarang"
+  docs: "https://subhk.github.io/Tarang.jl/stable/"
+  repo: "https://github.com/subhk/Tarang.jl"
+
+- name: "GeoDynamo.jl"
+  lang: "Julia"
+  desc: "A solver for rotating convection and dynamos in spherical shells and full balls."
+  install: "] add GeoDynamo"
+  docs:
+  repo: "https://github.com/subhk/GeoDynamo.jl"
+
+- name: "QGYBJplus.jl"
+  lang: "Julia"
+  desc: "A coupled quasi-geostrophic / YBJ⁺ model for near-inertial waves and balanced flow."
+  install: "] add QGYBJplus"
+  docs:
+  repo: "https://github.com/subhk/QGYBJplus.jl"
