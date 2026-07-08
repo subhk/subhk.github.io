@@ -13,7 +13,7 @@ classes: wide
     <a class="hero-btn" href="/software/">Software</a>
     <a class="hero-btn" href="/publications/">Publications</a>
     <a class="hero-btn" href="https://subhk.github.io/assets/pdf/subhajit_cv.pdf">Curriculum vitae</a>
-    <a class="hero-btn" href="mailto:subhajitkar@mail.tau.ac.il">Email</a>
+    <a class="hero-btn" href="mailto:subhajitkar19@gmail.com">Email</a>
   </div>
 </div>
 
@@ -23,4 +23,4 @@ for spectral methods, linear stability analysis, and planetary dynamos.
 
 Learn more [about me](/about/), read my
 [curriculum vitae](https://subhk.github.io/assets/pdf/subhajit_cv.pdf), or reach
-me at `subhajitkar@mail.tau.ac.il`.
+me at `subhajitkar19@gmail.com`.

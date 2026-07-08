@@ -7,7 +7,7 @@ permalink: /about/
 
 ## About me
 
-Hello! I’m **Subhajit Kar**, a Ph.D. candidate in Physical Oceanography at Tel Aviv University’s School of Geosciences.  
+Hello! I’m **Subhajit Kar**, a postdoctoral researcher in the Department of Atmospheric and Oceanic Science at the University of Maryland.  
 I study the dynamic surface layer of the ocean, where **fronts, internal waves, and small-scale instabilities** interact in surprising ways.
 
 My research blends **theoretical analysis, idealized models, and high-resolution numerical simulations** to peel back the physics of these processes. In particular, I use frameworks from **geophysical fluid dynamics** — such as surface semigeostrophic theory and instability analysis — together with **realistic ocean simulations** to understand how small-scale turbulence regulates the transfer of heat, carbon, and nutrients into the ocean interior.
