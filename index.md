@@ -7,7 +7,7 @@ classes: wide
 
 <div class="hero">
   <h1 class="hero__name">Subhajit Kar</h1>
-  <p class="hero__tagline">PhD student in ocean physics — Porter School of Earth &amp; Environmental Sciences, Tel Aviv University.</p>
+  <p class="hero__tagline">Postdoctoral researcher — Department of Atmospheric and Oceanic Science, University of Maryland.</p>
   <div class="hero__actions">
     <a class="hero-btn hero-btn--solid" href="/about/">About me</a>
     <a class="hero-btn" href="/software/">Software</a>
