@@ -1,13 +1,26 @@
 ---
-title: Me: human and scientist
+title: Home
+layout: single
+author_profile: false
+classes: wide
 ---
 
-I'm a PhD student in the Porter School of Earth and Environmental Sciences at [Tel Aviv University].
+<div class="hero">
+  <h1 class="hero__name">Subhajit Kar</h1>
+  <p class="hero__tagline">PhD student in ocean physics — Porter School of Earth &amp; Environmental Sciences, Tel Aviv University.</p>
+  <div class="hero__actions">
+    <a class="hero-btn hero-btn--solid" href="/about/">About me</a>
+    <a class="hero-btn" href="/software/">Software</a>
+    <a class="hero-btn" href="/publications/">Publications</a>
+    <a class="hero-btn" href="https://subhk.github.io/assets/pdf/subhajit_cv.pdf">Curriculum vitae</a>
+    <a class="hero-btn" href="mailto:subhajitkar@mail.tau.ac.il">Email</a>
+  </div>
+</div>
 
+I study the physics of the ocean — how fronts, waves, and flows evolve and
+interact. Alongside the science, I build open-source [Julia software](/software/)
+for spectral methods, linear stability analysis, and planetary dynamos.
 
-Learn more about [me], read my [curriculum vitae],
-or email me at `subhajitkar@mail.tau.ac.il`.
-
-[curriculum vitae]: https://subhk.github.io/assets/pdf/subhajit_cv.pdf
-[me]: https://subhk.github.io/about/
-[Tel Aviv University]: https://english.tau.ac.il
+Learn more [about me](/about/), read my
+[curriculum vitae](https://subhk.github.io/assets/pdf/subhajit_cv.pdf), or reach
+me at `subhajitkar@mail.tau.ac.il`.

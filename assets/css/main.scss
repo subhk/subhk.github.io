@@ -14,6 +14,10 @@
    Variables
    ========================================================================== */
 
+/* Ocean-blue accent overrides (must precede theme variables; they use !default) */
+$primary-color   : #0e7c8b;
+$link-color      : #0e7c8b;
+
 @import "variables";
 
 
@@ -77,3 +81,10 @@ $susy: (
 @import "archive";
 @import "sidebar";
 @import "print";
+
+
+/*
+   Custom — hero + software cards
+   ========================================================================== */
+
+@import "custom";
